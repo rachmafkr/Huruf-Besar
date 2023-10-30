@@ -17,10 +17,12 @@ public class SI_RegPagi22166019Latihan27HurufBesarKecil {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
+        // Menginput kalimat
         System.out.print("Masukkan kalimat: ");
         String kalimat = input.nextLine();
         System.out.println();
         
+        // Merubah menjadi besar dan kecil
         System.out.println("============Hasil Formatting===========");
         System.out.println("Huruf besar: " + kalimat.toUpperCase());
         System.out.println("Huruf kecil: " + kalimat.toLowerCase());
